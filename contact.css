@@ -1,0 +1,200 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+  background-color:#54d2a4;
+  position: sticky;
+  z-index: 10000;
+  top: 0px;
+  width: 100%;
+  }
+.heading{
+  font-size: 30px;
+  margin: 12px;
+  color:red;
+}
+b{
+  color:red;
+}
+
+.headingcontainer{
+  display: flex;
+}
+.foodimage{
+  height: 130px;
+  width:150px;
+  /* margin-top: -15px; */
+  margin-left: 20px;
+ }
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    padding: 10px; 
+    font-family: "Josefin Sans", sans-serif;
+    position: sticky;
+}
+ul{
+    list-style-type: none;
+    display:flex;
+}
+li{
+    list-style-type: none;
+    padding-left: 80px;
+    padding: 30px 60px;
+    padding:20px;
+    margin: 20px 30px;
+    color: white;
+  
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+}
+.nav-name:hover {
+    color: white;
+    font-size: 24px;
+    display:inline
+  }
+  .search img{
+    margin-top: 35px;
+    margin-right: 80px;
+  }
+.mainheading{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 76px;
+}
+.maincontainer{
+    width: 1350px;
+    margin: 30px 84px;
+    height: 500px;
+ background-color: bisque;
+ border: transparent;
+ border-radius: 20px;
+ display: flex;
+
+}
+.container1{
+    height: 500px;
+    width: 500px;
+    background-color: #3559E0;
+    border: transparent;
+ border-radius: 10px;
+}
+.container2{
+    height: 500px;
+    width: 850px;
+    background-color:whitesmoke;
+    border: transparent;
+    border-radius: 10px;
+}
+.container1 h2{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+    font-family:  sans-serif;
+}
+.mainheading:hover{
+    color:#3559E0;
+}
+.container1 h3{
+    color: white;
+    font-family:Roboto;
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+} 
+
+
+ .fa-solid, .fa-sharp,.fa-globe{
+    color:red;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 120px;
+    font-size: 30px;
+}
+span{
+    color: white;
+    font-size: 20px;
+}
+.Socialmedia{
+    height: 67px;
+    width: 250px;
+    background-color: #3559E0;
+    margin-top: 50px;
+    margin-left: 125px;
+    display: flex;
+    
+}
+.media{
+  height: 70px;
+  width: 130px;
+  background-color: red;
+  margin: 10px;
+  border: transparent;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.media:hover{
+    opacity: 0.8;
+    background-color:lightslategray
+}
+.fa-brands {
+    font-size: 30px;
+    color: white;
+    margin-top: 17px;
+    margin-left: 17px;
+}
+.touch{
+    margin:30px 40px;
+    font-size: 40px;
+}
+input{
+    height: 40px;
+    width: 260px;
+    margin-left: 40px;
+    border-radius: 17px;
+    border: transparent;
+    cursor: pointer;
+    box-sizing: border-box;
+    padding-left: 10px;
+
+}
+input:hover{
+    background-color: rgba(128, 128, 128, 0.471);
+}
+.area:hover{
+    background-color: rgba(128, 128, 128, 0.471);
+}
+.area{
+    margin-left: 44px;
+    padding: 16px;
+    box-sizing: border-box;
+    border: transparent;
+    border-radius: 18px;
+    margin-top: 10px;
+    resize: none;
+    cursor: pointer;
+}
+.btn{
+    margin-top: 31px;
+    width: 400px;
+    padding: 13px;
+    margin-left: 139px;
+    box-sizing: border-box;
+    border:transparent;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+}
+.btn:hover{
+    background-color: rgb(211, 90, 90);
+}
+button a{
+    text-decoration: none;
+    color: white;
+}

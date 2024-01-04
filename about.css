@@ -1,0 +1,219 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+  .header{
+  background-color:#54d2a4;
+  position: sticky;
+  z-index: 1000;
+  top: 0px;
+  width: 100%;
+  }
+  .heading{
+  font-size: 30px;
+  margin: 12px;
+  color:red;
+  }
+  b{
+  color:red;
+  }
+  
+  .headingcontainer{
+  display: flex;
+  }
+  .foodimage{
+  height: 130px;
+  width:150px;
+  /* margin-top: -15px; */
+  margin-left: 20px;
+  }
+  .navbar{
+    display: flex;
+    justify-content:space-between;
+    padding: 10px; 
+    font-family: "Josefin Sans", sans-serif;
+    position: sticky;
+  }
+  ul{
+    list-style-type: none;
+    display:flex;
+  }
+  li{
+    list-style-type: none;
+    padding-left: 80px;
+    padding: 30px 60px;
+    padding:20px;
+    margin: 20px 30px;
+    color: white;
+  
+  }
+  a{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+  }
+  .nav-name:hover {
+    color: white;
+    font-size: 24px;
+    display:inline
+  }
+  .search{
+    padding: 40px;
+    font-size: 20px;
+    margin-right:120px;
+  }
+  .search i{
+    padding: 5px 20px;
+    
+  
+  }
+
+
+
+.about{
+    height: 440px;
+    width: 1400px;
+    background-color:#FFF5C2;
+    margin-left: 60px;
+    border-radius: 10px;
+    margin-top: 57px;
+    }
+.about .heading{
+    font-size: 50px;
+    text-align: center;
+    color: #F94C10;
+    padding: 20px;
+}
+.heading:hover{
+  color: red;
+}
+.container{
+
+    height: 450px;
+    width: 1300px;
+    margin-left: 45px;
+    display: flex;
+    
+}
+.box{
+    height:180px;
+    width: 490px;
+    background-color:white;
+    border: 2px solid black;
+    margin: 40px;
+    margin-top: 30px;
+     border-radius:15%;
+}
+.box h1{
+    text-align: center;
+    margin-top: 10px;
+    font-family:sans-serif;    
+    color: rgba(0, 0, 0, 0.608);               
+
+}
+.icons{
+    height: 50px;
+    width: 50px;
+    margin-left: 150px;
+  
+}
+.paragraph{
+    text-align: justify;
+    margin: 20px;
+    font-size: 20px;
+}
+.box:hover{
+    background-color: #F94C10;
+}
+.foodio{
+    height: 500px;
+    width: 1381px;
+    margin-top: 68px;
+    margin-left: 65px;
+    /* background-color: aqua; */
+    display: flex;
+}
+.left{
+    height: 500px;
+    width: 600px;
+    /* background-color: blue; */
+
+}
+.right{
+    height: 500px;
+    width:781px;
+
+}
+ .image{
+    height: 430px;
+    width: 520px;
+    padding: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    
+}
+.image:hover{
+    opacity: 0.8;
+}
+.food{
+    font-size: 48px;
+    font-weight: 550;
+    font-family: "Josefin Sans", sans-serif;
+    margin-top: 61px;
+    margin-left: 100px;
+}
+.hundred{
+    font-size: 45px;
+    margin-left: 100px;
+    margin-top: -20px;
+    font-weight: 700;
+    font:bolder;
+    margin-top: 6px;
+}
+.our{
+    font-size: 30px;
+    margin-left: 100px;
+}
+.ourpara{
+    margin-left: 99px;
+    text-align: justify;
+}
+.explore{
+    margin-left: 100px;
+    padding: 10px;
+    width: 180;
+    font-size: 18px;
+    background-color:  #F94C10;
+    border-radius: 10px;
+    color: aliceblue;
+    border: none;
+}
+.explore:hover{
+    opacity: 0.6;
+    width: 250px;
+    background-color: rgba(26, 206, 26, 0.495);
+
+}
+
+.view{
+    float: right;
+    margin-right: 50px;
+    height: 30px;
+    width: 120px;
+    border: transparent;
+     background-color:#F94C10;
+     border-radius: 5px;
+     margin-top: 30px;
+     color:white;
+     font-size: 17px;
+    
+     }
+     .view:hover{
+      opacity: 0.8;
+      background-color: lightgreen;
+     
+     }
+     button a{
+        text-decoration: none;
+        color: white;
+      }
